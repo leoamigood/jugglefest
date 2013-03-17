@@ -40,4 +40,8 @@ public class LimitedSizePriorityQueue<E> {
         return out;
     }
 
+    public Object[] toArray() {
+        return queue.toArray();
+    }
+
 }

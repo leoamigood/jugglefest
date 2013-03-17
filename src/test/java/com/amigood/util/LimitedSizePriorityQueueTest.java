@@ -39,16 +39,19 @@ public class LimitedSizePriorityQueueTest {
     @Test
     public void testPushOutString() {
         queue = new LimitedSizePriorityQueue<String>(2);
+        assertEquals(2, queue.maxSize());
+
         assertNull(queue.push("zzz"));
         assertNull(queue.push("bbb"));
         assertEquals("bbb", queue.push("ccc"));
         assertEquals("aaa", queue.push("aaa"));
     }
 
-
     @Test
     public void testPushOutInteger() {
         queue = new LimitedSizePriorityQueue<String>(4);
+        assertEquals(4, queue.maxSize());
+
         assertNull(queue.push(3));
         assertNull(queue.push(-1));
         assertNull(queue.push(4));
@@ -60,7 +63,8 @@ public class LimitedSizePriorityQueueTest {
     @Test (expected = NullPointerException.class)
     public void testNull() {
         queue = new LimitedSizePriorityQueue<Object>(3);
-        assertEquals(0, queue.push(null));
+        assertEquals(3, queue.maxSize());
+        queue.push(null);
     }
 
     @Test
@@ -68,6 +72,8 @@ public class LimitedSizePriorityQueueTest {
         Date date1 = new Date();
 
         queue = new LimitedSizePriorityQueue<Date>(3);
+        assertEquals(3, queue.maxSize());
+
         assertNull(queue.push(date1));
         assertNull(queue.push(date1));
         assertNull(queue.push(date1));
