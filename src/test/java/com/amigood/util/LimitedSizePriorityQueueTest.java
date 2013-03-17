@@ -3,6 +3,10 @@ package com.amigood.util;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
@@ -19,12 +23,12 @@ public class LimitedSizePriorityQueueTest {
     LimitedSizePriorityQueue queue = null;
 
     @Test (expected = IllegalArgumentException.class)
-    public void testIncorrectSize() {
+    public void testIncorrectMaxSize() {
         queue = new LimitedSizePriorityQueue<Object>(-1);
     }
 
     @Test
-    public void testSizeZero() {
+    public void testMaxSizeZero() {
         Object o = new Object();
 
         queue = new LimitedSizePriorityQueue<Object>(0);
@@ -33,11 +37,24 @@ public class LimitedSizePriorityQueueTest {
     }
 
     @Test
-    public void testPushOut() {
+    public void testPushOutString() {
         queue = new LimitedSizePriorityQueue<String>(2);
-        assertNull(queue.push("one"));
-        assertNull(queue.push("two"));
-        assertEquals("one", queue.push("three"));
+        assertNull(queue.push("zzz"));
+        assertNull(queue.push("bbb"));
+        assertEquals("bbb", queue.push("ccc"));
+        assertEquals("aaa", queue.push("aaa"));
+    }
+
+
+    @Test
+    public void testPushOutInteger() {
+        queue = new LimitedSizePriorityQueue<String>(4);
+        assertNull(queue.push(3));
+        assertNull(queue.push(-1));
+        assertNull(queue.push(4));
+        assertNull(queue.push(1));
+        assertEquals(-1, queue.push(2));
+        assertEquals(1, queue.push(5));
     }
 
     @Test (expected = NullPointerException.class)
@@ -46,4 +63,24 @@ public class LimitedSizePriorityQueueTest {
         assertEquals(0, queue.push(null));
     }
 
+    @Test
+    public void testPushSame() {
+        Date date1 = new Date();
+
+        queue = new LimitedSizePriorityQueue<Date>(3);
+        assertNull(queue.push(date1));
+        assertNull(queue.push(date1));
+        assertNull(queue.push(date1));
+        assertEquals(date1, queue.push(new Date()));
+    }
+
+    @Test(expected = ClassCastException.class)
+    public void testNonComparable() {
+        Object o1 = new Object();
+        Object o2 = new Object();
+
+        queue = new LimitedSizePriorityQueue<Date>(2);
+        queue.push(o1);
+        queue.push(o2);
+    }
 }
