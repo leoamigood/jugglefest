@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="005071f1-aef8-4f20-9542-8b2d0a02c058" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/amigood/puzzle/jugglefest/JuggleFestManagerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/amigood/util/JugglerComparator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/amigood/util/JugglerComparatorTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amigood/puzzle/jugglefest/domain/Circuit.java" afterPath="$PROJECT_DIR$/src/main/java/com/amigood/puzzle/jugglefest/domain/Circuit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amigood/puzzle/jugglefest/JuggleFestManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/amigood/puzzle/jugglefest/JuggleFestManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amigood/puzzle/jugglefest/domain/Juggler.java" afterPath="$PROJECT_DIR$/src/main/java/com/amigood/puzzle/jugglefest/domain/Juggler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/amigood/util/LimitedSizePriorityQueue.java" afterPath="$PROJECT_DIR$/src/main/java/com/amigood/util/LimitedSizePriorityQueue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/amigood/util/LimitedSizePriorityQueueTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/amigood/util/LimitedSizePriorityQueueTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jugglefest.iml" afterPath="$PROJECT_DIR$/jugglefest.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jugglefest.ipr" afterPath="$PROJECT_DIR$/jugglefest.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jugglefest.iws" afterPath="$PROJECT_DIR$/jugglefest.iws" />
@@ -11,17 +17,21 @@
     </list>
     <ignored path="jugglefest.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="005071f1-aef8-4f20-9542-8b2d0a02c058" time="1363546975687" ignored="false" />
+    <file path="/Dummy.txt" changelist="005071f1-aef8-4f20-9542-8b2d0a02c058" time="1363640008760" ignored="false" />
     <file path="/LimitedSizeQueue.java" changelist="005071f1-aef8-4f20-9542-8b2d0a02c058" time="1363470071684" ignored="false" />
-    <file path="/fragment.java" changelist="005071f1-aef8-4f20-9542-8b2d0a02c058" time="1363540099564" ignored="false" />
+    <file path="/fragment.java" changelist="005071f1-aef8-4f20-9542-8b2d0a02c058" time="1363637853414" ignored="false" />
     <file path="/LimitedSizeQueueTest.java" changelist="005071f1-aef8-4f20-9542-8b2d0a02c058" time="1363470302815" ignored="false" />
     <file path="/LimitedQueue.java" changelist="005071f1-aef8-4f20-9542-8b2d0a02c058" time="1363468192379" ignored="false" />
-    <file path="/LimitedSizePriorityQueue.java" changelist="005071f1-aef8-4f20-9542-8b2d0a02c058" time="1363545383457" ignored="false" />
-    <file path="/LimitedSizePriorityQueueTest.java" changelist="005071f1-aef8-4f20-9542-8b2d0a02c058" time="1363483540434" ignored="false" />
-    <file path="/Circuit.java" changelist="005071f1-aef8-4f20-9542-8b2d0a02c058" time="1363545800246" ignored="false" />
-    <file path="/Juggler.java" changelist="005071f1-aef8-4f20-9542-8b2d0a02c058" time="1363545938283" ignored="false" />
-    <file path="/JuggleFestManager.java" changelist="005071f1-aef8-4f20-9542-8b2d0a02c058" time="1363547053050" ignored="false" />
-    <file path="/JuggleFestManagerTest.java" changelist="005071f1-aef8-4f20-9542-8b2d0a02c058" time="1363540187601" ignored="false" />
+    <file path="/LimitedSizePriorityQueue.java" changelist="005071f1-aef8-4f20-9542-8b2d0a02c058" time="1363641426000" ignored="false" />
+    <file path="/LimitedSizePriorityQueueTest.java" changelist="005071f1-aef8-4f20-9542-8b2d0a02c058" time="1363636795129" ignored="false" />
+    <file path="/Circuit.java" changelist="005071f1-aef8-4f20-9542-8b2d0a02c058" time="1363616895164" ignored="false" />
+    <file path="/Juggler.java" changelist="005071f1-aef8-4f20-9542-8b2d0a02c058" time="1363637526895" ignored="false" />
+    <file path="/JuggleFestManager.java" changelist="005071f1-aef8-4f20-9542-8b2d0a02c058" time="1363640079673" ignored="false" />
+    <file path="/JuggleFestManagerTest.java" changelist="005071f1-aef8-4f20-9542-8b2d0a02c058" time="1363640094358" ignored="false" />
+    <file path="/CircuitComparator.java" changelist="005071f1-aef8-4f20-9542-8b2d0a02c058" time="1363615718857" ignored="false" />
+    <file path="/JugglerComparator.java" changelist="005071f1-aef8-4f20-9542-8b2d0a02c058" time="1363616172948" ignored="false" />
+    <file path="/JugglerComparatorTest.java" changelist="005071f1-aef8-4f20-9542-8b2d0a02c058" time="1363638968715" ignored="false" />
+    <file path="/log4j.properties" changelist="005071f1-aef8-4f20-9542-8b2d0a02c058" time="1363641476558" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,11 +119,8 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <field_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <exception_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -148,6 +155,9 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <field_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -215,10 +225,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Circuit.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/amigood/puzzle/jugglefest/domain/Circuit.java">
+      <file leaf-file-name="JugglerComparatorTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/amigood/util/JugglerComparatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="13" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0">
+            <state line="30" column="47" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -227,47 +237,7 @@
       <file leaf-file-name="Juggler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/amigood/puzzle/jugglefest/domain/Juggler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="13" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedList.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_08.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="797" column="13" selection-start="23656" selection-end="23656" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JuggleFestManager.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/amigood/puzzle/jugglefest/JuggleFestManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="23" selection-start="1254" selection-end="1254" vertical-scroll-proportion="0.67343974">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#538#582#0" expanded="true" />
-                <element signature="e#1009#1029#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JuggleFestManagerTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/amigood/puzzle/jugglefest/JuggleFestManagerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="56" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+            <state line="12" column="13" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -276,7 +246,61 @@
       <file leaf-file-name="LimitedSizePriorityQueue.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/amigood/util/LimitedSizePriorityQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
+            <state line="25" column="0" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="29" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jugglefest.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/jugglefest.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14000" column="77" selection-start="937402" selection-end="937402" vertical-scroll-proportion="33.233334">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LimitedSizePriorityQueueTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/amigood/util/LimitedSizePriorityQueueTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="0" selection-start="1638" selection-end="1638" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JuggleFestManagerTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/amigood/puzzle/jugglefest/JuggleFestManagerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="77" column="35" selection-start="2923" selection-end="2923" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JuggleFestManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/amigood/puzzle/jugglefest/JuggleFestManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="30" selection-start="2014" selection-end="2014" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Map.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_08.jdk/Contents/Home/src.zip!/java/util/Map.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="199" column="6" selection-start="9031" selection-end="9031" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -285,25 +309,7 @@
       <file leaf-file-name="PriorityQueue.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_08.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="451" column="19" selection-start="16790" selection-end="16790" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Calendar.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_08.jdk/Contents/Home/src.zip!/java/util/Calendar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2012" column="25" selection-start="77756" selection-end="77756" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Date.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_08.jdk/Contents/Home/src.zip!/java/util/Date.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="193" column="11" selection-start="7487" selection-end="7487" vertical-scroll-proportion="0.0">
+            <state line="568" column="13" selection-start="20747" selection-end="20747" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -324,11 +330,6 @@
       <MyDateState />
     </option>
   </component>
-  <component name="HierarchyBrowserManager">
-    <option name="SHOW_PACKAGES" value="false" />
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="SORT_ALPHABETICALLY" value="false" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -336,12 +337,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/amigood/util/LimitedSizeQueue.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/amigood/util/LimitedSizeQueueTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/amigood/puzzle/jugglefest/domain/JuggleFestManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/amigood/util/CircuitComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/amigood/puzzle/jugglefest/domain/Circuit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/amigood/util/JugglerComparator.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/amigood/util/LimitedSizePriorityQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/amigood/puzzle/jugglefest/domain/Juggler.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/amigood/util/JugglerComparatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/amigood/puzzle/jugglefest/JuggleFestManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/amigood/puzzle/jugglefest/JuggleFestManagerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/amigood/util/LimitedSizePriorityQueue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/amigood/puzzle/jugglefest/domain/Circuit.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/amigood/puzzle/jugglefest/domain/Juggler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/amigood/puzzle/jugglefest/JuggleFestManager.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/test/resources/jugglefest.txt" />
       </list>
     </option>
   </component>
@@ -425,7 +431,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -462,7 +467,67 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jugglefest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jugglefest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="amigood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jugglefest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jugglefest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="amigood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jugglefest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -562,6 +627,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -574,9 +640,10 @@
     <view id="ClasspathPane" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/amigood" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/amigood/util" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="OverrideImplement.combined" value="false" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -589,81 +656,18 @@
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.amigood.puzzle.jugglefest" />
-      <recent name="com.amigood.util" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.amigood.util" />
+      <recent name="com.amigood.puzzle.jugglefest" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.amigood.util" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.LimitedSizePriorityQueueTest">
-    <configuration default="false" name="LimitedSizePriorityQueueTest.testPushOut" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.amigood.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="jugglefest" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.amigood.util" />
-      <option name="MAIN_CLASS_NAME" value="com.amigood.util.LimitedSizePriorityQueueTest" />
-      <option name="METHOD_NAME" value="testPushOut" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="Debug" />
-      <method />
-    </configuration>
-    <configuration default="false" name="LimitedSizePriorityQueueTest.testIncorrectSize" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.amigood.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="jugglefest" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.amigood.util" />
-      <option name="MAIN_CLASS_NAME" value="com.amigood.util.LimitedSizePriorityQueueTest" />
-      <option name="METHOD_NAME" value="testIncorrectSize" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.JuggleFestManagerTest">
     <configuration default="false" name="LimitedSizePriorityQueueTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -694,6 +698,148 @@
         <option name="LOCAL" value="true" />
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="JuggleFestManagerTest.testProcess" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.amigood.puzzle.jugglefest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="jugglefest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.amigood.puzzle.jugglefest" />
+      <option name="MAIN_CLASS_NAME" value="com.amigood.puzzle.jugglefest.JuggleFestManagerTest" />
+      <option name="METHOD_NAME" value="testProcess" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="JugglerComparatorTest.testPushWithComparator" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.amigood.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="jugglefest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.amigood.util" />
+      <option name="MAIN_CLASS_NAME" value="com.amigood.util.JugglerComparatorTest" />
+      <option name="METHOD_NAME" value="testPushWithComparator" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="JugglerComparatorTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.amigood.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="jugglefest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.amigood.util" />
+      <option name="MAIN_CLASS_NAME" value="com.amigood.util.JugglerComparatorTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="JuggleFestManagerTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.amigood.puzzle.jugglefest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="jugglefest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.amigood.puzzle.jugglefest" />
+      <option name="MAIN_CLASS_NAME" value="com.amigood.puzzle.jugglefest.JuggleFestManagerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -755,16 +901,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.LimitedSizePriorityQueueTest.testPushOut" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LimitedSizePriorityQueueTest.testIncorrectSize" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.LimitedSizePriorityQueueTest" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.LimitedSizePriorityQueueTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.JuggleFestManagerTest.testProcess" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.JugglerComparatorTest.testPushWithComparator" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.JugglerComparatorTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.JuggleFestManagerTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.LimitedSizePriorityQueueTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LimitedSizePriorityQueueTest.testIncorrectSize" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LimitedSizePriorityQueueTest.testPushOut" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.JuggleFestManagerTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.JugglerComparatorTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.JugglerComparatorTest.testPushWithComparator" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.JuggleFestManagerTest.testProcess" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.LimitedSizePriorityQueueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -829,18 +979,18 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32297298" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.6" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496361" sideWeight="0.6" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496361" sideWeight="0.67702705" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Aspects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32702702" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="EJB" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -960,107 +1110,111 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/amigood/util/LimitedSizePriorityQueueTest.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_08.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_08.jdk/Contents/Home/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="32" selection-start="5041" selection-end="5041" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_08.jdk/Contents/Home/src.zip!/java/util/AbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="359" column="44" selection-start="12224" selection-end="12239" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_08.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="180" column="17" selection-start="6077" selection-end="6077" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_08.jdk/Contents/Home/src.zip!/java/lang/Comparable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="0" selection-start="3701" selection-end="3701" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_08.jdk/Contents/Home/src.zip!/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="193" column="11" selection-start="7487" selection-end="7487" vertical-scroll-proportion="0.0">
+        <state line="101" column="17" selection-start="3985" selection-end="3985" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_08.jdk/Contents/Home/src.zip!/java/util/Calendar.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_08.jdk/Contents/Home/src.zip!/java/util/AbstractQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2012" column="25" selection-start="77756" selection-end="77756" vertical-scroll-proportion="0.0">
+        <state line="111" column="13" selection-start="3401" selection-end="3401" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10.jar!/org/junit/internal/ComparisonCriteria.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="747" selection-end="747" vertical-scroll-proportion="0.6760563" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/amigood/puzzle/jugglefest/domain/Circuit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="11" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/amigood/util/LimitedSizePriorityQueueTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="24" selection-start="1841" selection-end="1841" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_08.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="797" column="13" selection-start="23656" selection-end="23656" vertical-scroll-proportion="0.0">
+        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/amigood/puzzle/jugglefest/JuggleFestManagerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/amigood/util/JugglerComparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="56" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+        <state line="18" column="11" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_08.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="451" column="19" selection-start="16790" selection-end="16790" vertical-scroll-proportion="0.0">
+        <state line="568" column="13" selection-start="20747" selection-end="20747" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/amigood/util/LimitedSizePriorityQueue.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_08.jdk/Contents/Home/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/amigood/puzzle/jugglefest/domain/Circuit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/amigood/puzzle/jugglefest/domain/Juggler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="199" column="6" selection-start="9031" selection-end="9031" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/amigood/puzzle/jugglefest/JuggleFestManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="23" selection-start="1254" selection-end="1254" vertical-scroll-proportion="0.67343974">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#538#582#0" expanded="true" />
-            <element signature="e#1009#1029#0" expanded="true" />
-          </folding>
+        <state line="56" column="30" selection-start="2014" selection-end="2014" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/amigood/puzzle/jugglefest/JuggleFestManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="35" selection-start="2923" selection-end="2923" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/amigood/util/JugglerComparatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="47" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/amigood/util/LimitedSizePriorityQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="0" selection-start="1638" selection-end="1638" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/amigood/puzzle/jugglefest/domain/Juggler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/amigood/util/LimitedSizePriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="29" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/jugglefest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14000" column="77" selection-start="937402" selection-end="937402" vertical-scroll-proportion="33.233334">
+          <folding />
         </state>
       </provider>
     </entry>

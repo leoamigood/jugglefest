@@ -1,6 +1,10 @@
 package com.amigood.util;
 
+import com.amigood.puzzle.jugglefest.domain.Juggler;
+import org.apache.commons.lang.ArrayUtils;
+
 import java.util.Collection;
+import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.PriorityQueue;
 
@@ -17,15 +21,19 @@ public class LimitedSizePriorityQueue<E> {
     private PriorityQueue<E> queue;
 
     public LimitedSizePriorityQueue(int maxSize) {
+        this(maxSize, null);
+    }
+
+    public LimitedSizePriorityQueue(int maxSize, Comparator comparator) {
         this.maxSize = maxSize;
-        this.queue = new PriorityQueue<E>(maxSize + 1);
+        this.queue = new PriorityQueue<E>(maxSize + 1, comparator);
     }
 
     public int maxSize() {
         return this.maxSize;
     }
 
-    public int getSize() {
+    public int size() {
         return queue.size();
     }
 
@@ -34,14 +42,18 @@ public class LimitedSizePriorityQueue<E> {
 
         queue.add(in);
         if (queue.size() > maxSize) {
-            out = queue.remove();
+            out = queue.poll();
         }
 
         return out;
     }
 
-    public Object[] toArray() {
-        return queue.toArray();
+    public Juggler[] toArray() {
+        return queue.toArray(new Juggler[queue.size()]);
     }
 
+    @Override //unordered!
+    public String toString() {
+        return "Q: " + ArrayUtils.toString(queue.toArray());
+    }
 }
