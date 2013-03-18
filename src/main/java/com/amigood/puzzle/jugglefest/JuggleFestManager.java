@@ -43,14 +43,18 @@ public class JuggleFestManager {
     //we try to add a juggler to his preferred circuit
     //but if we are unable (due to limited space) we try his next preferred circuit
     private void addJuggler(Juggler juggler) {
-        Juggler evicted;
+        Juggler evicted = null;
         do {
             Circuit circuit = juggler.getNextCircuit();
-            log.debug("Adding: {} -> {}, rank: {}", juggler, circuit, juggler.getRank(circuit));
-            evicted = records.get(circuit).push(juggler);
-            juggler = evicted;
-
-            if (log.isDebugEnabled() && evicted != null) log.debug("Evicted: {}", evicted);
+            if (circuit != null) {
+                log.trace("Adding: {} -> {}, rank: {}", juggler, circuit, juggler.getRank(circuit));
+                evicted = records.get(circuit).push(juggler);
+                juggler = evicted;
+                if (evicted != null) log.debug("Evicted: {}", evicted);
+            } else {
+                log.debug("Permanently evicted: {}", juggler);
+                evicted = null;
+            }
         } while (evicted != null);
     }
 

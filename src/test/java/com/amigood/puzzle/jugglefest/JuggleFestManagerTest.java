@@ -77,4 +77,5 @@ public class JuggleFestManagerTest {
         assertEquals(9 + 8 + 7 + 1, JuggleFestManager.getWinningNumber(solution.get(c1)));
         assertEquals(5 + 11 + 2 + 4, JuggleFestManager.getWinningNumber(solution.get(c0)));
     }
+
 }

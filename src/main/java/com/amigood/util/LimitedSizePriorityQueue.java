@@ -3,9 +3,7 @@ package com.amigood.util;
 import com.amigood.puzzle.jugglefest.domain.Juggler;
 import org.apache.commons.lang.ArrayUtils;
 
-import java.util.Collection;
 import java.util.Comparator;
-import java.util.LinkedList;
 import java.util.PriorityQueue;
 
 /**

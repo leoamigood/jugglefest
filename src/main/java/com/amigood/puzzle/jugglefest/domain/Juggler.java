@@ -1,5 +1,6 @@
 package com.amigood.puzzle.jugglefest.domain;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -17,7 +18,7 @@ public class Juggler {
     public Integer eRank;
     public Integer pRank;
 
-    private LinkedList<Circuit> circuits;
+    private LinkedList<Circuit> circuits = new LinkedList<Circuit>();
 
     public Juggler(String name, int hRank, int eRank, int pRank) {
         assert name.matches("^J\\d+$");
@@ -41,7 +42,7 @@ public class Juggler {
     }
 
     public Circuit getNextCircuit(){
-        return circuits.pop();
+        return circuits.poll();
     }
 
     @Override
